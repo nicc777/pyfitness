@@ -15,6 +15,6 @@ class TimeOverDistance:
         if secs > 60:
             mins = int(secs / 60)
             secs -= (mins * 60)
-        print("%s:%s:%s per %s" % (hours, mins, secs, distance_unit))
+        print('{:03d}:{:02d}:{:04.2f} per {:s}'.format(hours, mins, secs, distance_unit))
 
 # EOF
