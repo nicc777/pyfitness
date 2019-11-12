@@ -17,4 +17,9 @@ class TimeOverDistance:
             secs -= (mins * 60)
         print('{:03d}:{:02d}:{:04.2f} per {:s}'.format(hours, mins, secs, distance_unit))
 
+
+if __name__ == '__main__':
+    print('The running directly from the command line is not yet supported')
+
+
 # EOF
